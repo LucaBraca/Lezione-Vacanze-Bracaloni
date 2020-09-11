@@ -1,0 +1,276 @@
+﻿1
+00:00:04,180 --> 00:00:10,440
+Today I will talk about the 1.1.1 criterion of web content Accessibility
+
+2
+00:00:10,740 --> 00:00:13,380
+which concerns non-textual content
+
+3
+00:00:18,440 --> 00:00:24,120
+before going into specifics and understanding what this criterion is about
+
+4
+00:00:24,120 --> 00:00:27,260
+you must first understand what the non-textual content is
+
+5
+00:00:27,740 --> 00:00:33,260
+in fact, non-textual content concerns all the content within a web page
+
+6
+00:00:33,260 --> 00:00:35,260
+which is presented to the user and has a text alternative
+
+7
+00:00:35,260 --> 00:00:39,940
+and that has a textual alternative that fulfills the equivalent purpose
+
+8
+00:00:41,920 --> 00:00:45,740
+there are several specific types of non-textual content
+
+9
+00:00:46,160 --> 00:00:48,180
+for example the illustrative photos
+
+10
+00:00:48,420 --> 00:00:53,840
+which are simply images of objects, people or places
+
+11
+00:00:55,140 --> 00:00:56,980
+of background images
+
+12
+00:00:57,180 --> 00:01:00,360
+which are obtained using CSS
+
+13
+00:01:00,520 --> 00:01:04,720
+and therefore it is not possible to specify an alternate text value
+
+14
+00:01:05,080 --> 00:01:10,040
+however it is important to use an alternate background for cases where the image
+
+15
+00:01:10,140 --> 00:01:12,200
+cannot be displayed
+
+16
+00:01:13,980 --> 00:01:15,500
+icons
+
+17
+00:01:16,020 --> 00:01:22,740
+they are small pictograms, images that convey specific information
+
+18
+00:01:23,900 --> 00:01:29,000
+and obviously they must be used consistently, within a page or site
+
+19
+00:01:30,820 --> 00:01:32,580
+charts and diagrams
+
+20
+00:01:32,800 --> 00:01:35,960
+they usually represent numerical data
+
+21
+00:01:36,160 --> 00:01:40,980
+consequently a possible alternative text could consist
+
+22
+00:01:41,080 --> 00:01:44,260
+in a brief summary of the main trends
+
+23
+00:01:44,440 --> 00:01:50,560
+or if necessary, provide a more detailed description of the text
+
+24
+00:01:50,740 --> 00:01:55,100
+using the description field in the advanced image properties tab
+
+25
+00:01:56,160 --> 00:01:56,980
+captcha
+
+26
+00:01:56,980 --> 00:02:03,560
+captcha stands for "Fully automated turing test to distinguish machines from people
+
+27
+00:02:03,900 --> 00:02:08,220
+and is usually used as a security check on web pages
+
+28
+00:02:08,320 --> 00:02:11,580
+to distinguish humans from malicious software
+
+29
+00:02:12,140 --> 00:02:15,520
+which, however, can represent an obstacle to accessibility
+
+30
+00:02:15,840 --> 00:02:21,000
+in fact, these are images that require users to describe what they see
+
+31
+00:02:21,420 --> 00:02:24,060
+in order to pass a safety test
+
+32
+00:02:24,560 --> 00:02:28,860
+therefore providing alternative text for the image is obviously not possible
+
+33
+00:02:28,880 --> 00:02:33,260
+and alternative solutions will need to be considered
+
+34
+00:02:35,640 --> 00:02:38,300
+the purpose of the non-textual content
+
+35
+00:02:38,980 --> 00:02:44,100
+information on a web page can be provided in various non-textual formats
+
+36
+00:02:44,100 --> 00:02:47,000
+such as images, videos and animations
+
+37
+00:02:47,740 --> 00:02:49,720
+however blind people
+
+38
+00:02:49,720 --> 00:02:54,400
+or with severe visual impairment they are unable to see non-textual content
+
+39
+00:02:54,660 --> 00:02:57,840
+but they can still access the textual content
+
+40
+00:02:57,840 --> 00:03:00,940
+read using a screen reader
+
+41
+00:03:00,940 --> 00:03:04,700
+or presented in tactile form by a braille device
+
+42
+00:03:06,000 --> 00:03:12,220
+so thanks to the availability of textual alternatives to the content
+
+43
+00:03:12,620 --> 00:03:15,920
+all people can access the site
+
+44
+00:03:17,800 --> 00:03:19,600
+how to meet the criterion
+
+45
+00:03:20,220 --> 00:03:24,360
+for graphic and static elements the basic requirement is
+
+46
+00:03:24,400 --> 00:03:27,800
+in providing an equivalent text alternative
+
+47
+00:03:27,880 --> 00:03:32,100
+and this can be done in the ALT text
+
+48
+00:03:32,140 --> 00:03:36,440
+and then make small descriptions about the image
+
+49
+00:03:38,040 --> 00:03:39,860
+now let's go and see
+
+50
+00:03:40,740 --> 00:03:45,320
+here we have a normal site with images
+
+51
+00:03:46,840 --> 00:03:50,740
+that have already incorporated some small descriptions
+
+52
+00:03:51,600 --> 00:03:55,480
+very detailed but that center the lens of the photo
+
+53
+00:03:56,320 --> 00:03:59,040
+though if we notice the code
+
+54
+00:03:59,840 --> 00:04:03,800
+nothing has been specified for the ALT text
+
+55
+00:04:04,200 --> 00:04:08,420
+so, here for example I am talking about our residences
+
+56
+00:04:08,420 --> 00:04:12,020
+let's put "residence" at the ALT attribute
+
+57
+00:04:14,740 --> 00:04:19,560
+and so on for all ALT tags
+
+58
+00:04:19,980 --> 00:04:23,240
+so here we talk about ski areas
+
+59
+00:04:23,560 --> 00:04:26,140
+to the ALT tag we can put "districts"
+
+60
+00:04:29,200 --> 00:04:33,640
+here we have our territory, we can put "territory"
+
+61
+00:04:34,900 --> 00:04:35,980
+and so on
+
+62
+00:04:37,200 --> 00:04:41,960
+this mechanism must be done for all ALT attributes
+
+63
+00:04:47,340 --> 00:04:49,740
+creating good text alternatives
+
+64
+00:04:50,260 --> 00:04:53,400
+then there are various forms of non-textual content
+
+65
+00:04:53,720 --> 00:04:56,620
+hence the value of the alt text
+
+66
+00:04:56,640 --> 00:04:59,900
+depends on the role of the graphic on the page
+
+67
+00:05:00,940 --> 00:05:04,820
+textual alternatives should be concise
+
+68
+00:05:04,820 --> 00:05:07,740
+but clearly convey essential information
+
+69
+00:05:07,840 --> 00:05:10,140
+provided by non-textual content
+
